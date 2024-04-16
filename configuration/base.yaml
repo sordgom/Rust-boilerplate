@@ -1,0 +1,10 @@
+application:
+  port: 8000
+  hmac_secret: "6KK5L39W0sCAwE4k2rS45/prf/n8kaAihtQcqAulo1rgGiRkYJkt/A4eRjwqV3fOZqqB6x8a7lTtzdHgXSbjpG+pjYO/Ag6g3sNn5us9/lNK0R7FMc5kWSsHssqsZEFUB8k9pEzNKH/CZpwlplAx7JpQgOwNMrtf7Ha3hrWDQZGK/elc/yHyViRfy2XanT7aF4bqUWoYXNN7qWn8HetOR20qGMEOIdrhh5/u5IHLx5VLqurJfOq5PdRtUF604BKK9EfvpAcMi1bxSlmR4NPOQTDWE4Z7uzHQnSCmMXnLUmsNsmG66vXahunFis9eNcRqyA/w6TznRfD4MivQmYQlWA=="
+database:
+  host: localhost
+  port: 9000
+  database_name: dentalcare
+  username: postgres
+  password: postgres
+redis_uri: "redis://127.0.0.1:6379"
